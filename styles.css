@@ -1,0 +1,157 @@
+*{
+    margin:0;
+    scroll-behavior: smooth;
+
+    font-family: sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh
+}
+
+.header{
+    
+
+    color:#C2F0E8;
+    display: grid;
+    grid-template: 
+    "name . topbar" 1fr/
+    0.3fr 0.5fr 0.5fr;
+    
+}
+
+h1{
+    font-size: 30px;
+}
+
+.page1{
+    height: 100vh;
+    width: 100vw;
+    background-color:#00C497 ;
+}
+
+.header > ul {
+    grid-area: topbar;
+    list-style: none;
+    display: grid;
+    grid-auto-flow: column;
+    place-items: center;
+    
+}
+.navbar{
+
+    margin-top: 30px;    
+}
+.header> ul > a >li {
+    display: grid;
+    place-items: center;
+    margin-right: 10px;
+    border: 1px solid #C2F0E8;
+    border-radius: 5px;
+    background-color:#C2F0E8 ;
+    color: #00D6B2;
+    padding: 5px;
+}
+
+.header > ul > a{
+
+    text-decoration: none;
+
+}
+
+.header .name{
+    grid-area: name;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.page1 > .main{
+    color:#C2F0E8;
+    
+    width: 500px;
+    
+    margin: 20vh 35vw;
+}
+
+strong{
+    color: black;
+    font-weight: bolder;
+}
+
+.page1 > .main > h2 {
+    font-size: 6rem;
+    margin-bottom: 30px;
+   
+}
+
+.page1 >.main > p{
+    font-size: 1.2rem;
+    width: 550px;
+}
+
+.page1>.main > p > u{
+    text-decoration-color: black;
+
+}
+
+
+.page2{
+    height: 100vh;
+    width: 100vw;
+
+    font-weight: bold;
+}
+
+.intro {
+    margin:5vh 45vw;
+    width: 500px;
+    font-size: 3rem;
+    text-transform: uppercase;   
+}
+.page2 > .main2 > h3{
+    margin-bottom: 10px;
+
+}
+.page2 > .main2{
+    margin: 5vh 35vw;
+    line-height: 35px;
+}
+.technical-skills{
+    margin-top: 60px;
+}
+
+.page2 > .main2 > .skills {
+    display: flex;
+    flex-direction: row;    
+}
+.page2 > .main2 > ul > .skills-right{
+    margin-left: 50px;
+}
+.page2 > .main2 > ul > .skills-left{
+    margin-right: 50px;
+}
+
+.page3 {
+    height: 100vh;
+    width: 100vw;
+    background-color: pink;
+}
+
+.page3 > .main3 > .projects{
+
+    display: grid;
+    list-style: none;
+
+    grid-auto-flow: column;
+
+}
+
+.project1 , .project2 , .project3{
+    border: 5px solid red;
+    margin: 5vh 5vw;
+
+    
+}
+
+
